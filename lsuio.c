@@ -150,7 +150,8 @@ int main (int argc, char **argv)
 }
 
 /* Parse a single option.  */
-static error_t parse_opt (int key, char *arg, struct argp_state *state)
+static error_t parse_opt (int key, char *arg __attribute__((unused)),
+			  struct argp_state *state)
 {
 	switch (key)
 	{
@@ -168,9 +169,8 @@ static error_t parse_opt (int key, char *arg, struct argp_state *state)
 		want_verbose = 1;
 		break;
 
-	case ARGP_KEY_ARG:		/* [FILE]... */
-		/* TODO: Do something with ARG, or remove this case and make
-         main give argp_parse a non-NULL fifth argument.  */
+	case ARGP_KEY_ARG:
+		argp_usage (state);
 		break;
 
 	default:
