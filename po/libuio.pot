@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Benedikt Spranger
+# This file is distributed under the same license as the libuio package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: libuio 0.2.9\n"
+"Report-Msgid-Bugs-To: https://github.com/linutronix/libuio/issues\n"
+"POT-Creation-Date: 2018-07-16 07:55+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lsuio.c:61
+msgid "open and close all devices"
+msgstr ""
+
+#: lsuio.c:62
+msgid "Print more information"
+msgstr ""
+
+#: lsuio.c:73
+msgid "list uio devices."
+msgstr ""
+
+#: lsuio.c:89
+msgid "No UIO devices found\n"
+msgstr ""
+
+#: lsuio.c:96
+#, c-format
+msgid "Name   : %s\n"
+msgstr ""
+
+#: lsuio.c:97
+#, c-format
+msgid "Version: %s\n"
+msgstr ""
+
+#: lsuio.c:98
+#, c-format
+msgid "DevId  : %d:%d\n"
+msgstr ""
+
+#: lsuio.c:100
+#, c-format
+msgid "DevNode: %s\n"
+msgstr ""
+
+#: lsuio.c:104
+msgid "Map    :\n"
+msgstr ""
+
+#: lsuio.c:107
+#, c-format
+msgid "%3d addr: 0x%08lx\n"
+msgstr ""
+
+#: lsuio.c:109
+#, c-format
+msgid "    size: 0x%08zx\n"
+msgstr ""
+
+#: lsuio.c:111
+#, c-format
+msgid "  offset: 0x%08zx\n"
+msgstr ""
+
+#: lsuio.c:115
+msgid "\n"
+msgstr ""
+
+#: lsuio.c:117
+msgid "Attr.  :\n"
+msgstr ""
+
+#: lsuio.c:121
+#, c-format
+msgid "  %s\n"
+msgstr ""
+
+#: lsuio.c:125
+#, c-format
+msgid "    %s\n"
+msgstr ""
+
+#: lsuio.c:133
+msgid "open : "
+msgstr ""
+
+#: lsuio.c:135 lsuio.c:141
+msgid "OK\n"
+msgstr ""
+
+#: lsuio.c:137 lsuio.c:143
+msgid "failed\n"
+msgstr ""
+
+#: lsuio.c:139
+msgid "close: "
+msgstr ""
+
+#: lsuio.c:188
+#, c-format
+msgid ""
+"Written by %s.\n"
+"\n"
+msgstr ""
+
+#: lsuio.c:189
+#, c-format
+msgid "Copyright (C) %s %s\n"
+msgstr ""
+
+#: lsuio.c:190
+msgid ""
+"This program is free software; you may redistribute it under the terms of\n"
+"the GNU General Public License.  This program has absolutely no warranty.\n"
+msgstr ""
