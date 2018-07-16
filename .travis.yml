@@ -1,0 +1,16 @@
+before_install:
+  - sudo apt-get install -y autopoint libglib2.0-dev pkg-config texinfo texlive
+addons:
+  apt:
+    update: true
+
+language: c
+compiler:
+  - clang
+  - gcc
+
+script:
+  - ./autogen.sh
+  - ./configure
+  - make
+  - make distcheck
