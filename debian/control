@@ -19,7 +19,6 @@ Description: Userspace IO helper library
  A small Userspace IO driver helper library. (development files)
 
 Package: libuio2
-Section: libs
 Multi-Arch: same
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
