@@ -1,3 +1,4 @@
+Master Branch: [![Build Status](https://travis-ci.org/bene42/libuio.svg?branch=master)](https://travis-ci.org/bene42/libuio)
 Debian package: [![Build Status](https://travis-ci.org/bene42/libuio.svg?branch=debian%2Fsid)](https://travis-ci.org/bene42/libuio)
 
 ## libuio - UserspaceIO helper library
